@@ -1,0 +1,25 @@
+C:\Users\Mina\Desktop\DojoAssignments>dir /b/s
+C:\Users\Mina\Desktop\DojoAssignments\about.txt
+C:\Users\Mina\Desktop\DojoAssignments\iOS
+C:\Users\Mina\Desktop\DojoAssignments\Mean
+C:\Users\Mina\Desktop\DojoAssignments\netCore
+C:\Users\Mina\Desktop\DojoAssignments\Python
+C:\Users\Mina\Desktop\DojoAssignments\Ruby
+C:\Users\Mina\Desktop\DojoAssignments\WebFundamentatls
+C:\Users\Mina\Desktop\DojoAssignments\iOS\about.txt
+C:\Users\Mina\Desktop\DojoAssignments\Mean\about.txt
+C:\Users\Mina\Desktop\DojoAssignments\netCore\about.txt
+C:\Users\Mina\Desktop\DojoAssignments\Python\about.txt
+C:\Users\Mina\Desktop\DojoAssignments\Ruby\about.txt
+C:\Users\Mina\Desktop\DojoAssignments\WebFundamentatls\about.txt
+C:\Users\Mina\Desktop\DojoAssignments\WebFundamentatls\CSS
+C:\Users\Mina\Desktop\DojoAssignments\WebFundamentatls\Git
+C:\Users\Mina\Desktop\DojoAssignments\WebFundamentatls\HTML
+C:\Users\Mina\Desktop\DojoAssignments\WebFundamentatls\Javascript
+C:\Users\Mina\Desktop\DojoAssignments\WebFundamentatls\CSS\about.txt
+C:\Users\Mina\Desktop\DojoAssignments\WebFundamentatls\Git\about.txt
+C:\Users\Mina\Desktop\DojoAssignments\WebFundamentatls\HTML\about.txt
+C:\Users\Mina\Desktop\DojoAssignments\WebFundamentatls\HTML\indentation.html
+C:\Users\Mina\Desktop\DojoAssignments\WebFundamentatls\Javascript\about.txt
+
+C:\Users\Mina\Desktop\DojoAssignments>
