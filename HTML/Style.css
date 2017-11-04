@@ -1,2 +1,8 @@
-h1 {Color: green;
+h1 {Color: purple;
 } 
+.grey{
+    background-color: grey;
+}
+.lightgrey {
+background-color: lightgrey 
+}
