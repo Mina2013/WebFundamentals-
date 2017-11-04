@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="Style_1.css">
         <title>My Registration Form</title>
     </head>
     <body>
         <h1>My Registration Form</h1>
-        <div id="main">
-            <form action="process.php" method="post">
-               <label>First Name:<input type="text" id="firstname"></label><br/>
-               <label>Last Name:<input type="text" id="lastname"></label><br>
-               <label>EMail:<input type="text" id="email"></label><br/>
-               <label>Password:<input type="text" id="password"></label><br/>
-               <label>Pwd Confirm:<input type="text" id="password"></label><br/>
-               <label>Birthday:<input type="date" id="birthday"></label><br/>
-
+        <div class="container">
+            <form>
+               <label>First Name:<input type="text" id="firstname"></label><br/><br>
+               <label>Last Name:<input type="text" id="lastname"></label><br><br>
+               <label>EMail:<input type="text" id="email"></label><br/><br>
+               <label>Password:<input type="text" id="password"></label><br/><br>
+               <label>Pwd Confirm:<input type="text" id="password"></label><br/><br>
+               <label>Birthday:<input type="date" id="birthday"></label><br/><br>
         
                <label for="Male">Male</label>
                <input type="radio" id="male" name="gender" value="male">
@@ -22,17 +22,17 @@
                <label for="Other">Other</label>
                <input type="radio" id="other" name="gender" value="other">
                <p> A short description about yourself:</p>
-               <textarea name="description"></textarea> 
-               <p> favorite Language:</p><select required>
-                     <option value="">None</option>
-                     <option value="Jscript">Jscript</option>
-                     <option value="Java">Java</option>
-                     <option value="Python">Python</option>
-                     <option value="Ruby">Ruby</option>
-                </select>
-              <p></p>
-                <input type="submit" value="Submit">           
-            
+               <textarea name="description"></textarea><br>
+                    
+               <label for="favoritelanguage">favorite language</label>
+               <select name = "favoritelanguage" id="favorite language">
+                  <option value="">None</option>
+                  <option value="Java">Java</option>
+                  <option value="Jscript">Jscript</option>
+                  <option value="Python">Python</option>
+                  <option value="Ruby">Ruby</option>
+               </select><br><br>
+               <input type="submit" value="Submit">           
             </form>
         </div>      
     </body>
