@@ -1,8 +1,6 @@
-.container {
-    width: 500px;
-    clear: both;
+.inputdata input {
+    margin-left: 5em;    
 }
-.container input {
-    width: 100%;
-    clear: both;
+.inputdata label {
+ position: absolute;
 }

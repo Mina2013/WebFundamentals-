@@ -1,39 +1,40 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="Style_1.css">
+        <link rel="stylesheet" href="Style-1.css">
         <title>My Registration Form</title>
     </head>
     <body>
         <h1>My Registration Form</h1>
-        <div class="container">
             <form>
-               <label>First Name:<input type="text" id="firstname"></label><br/><br>
-               <label>Last Name:<input type="text" id="lastname"></label><br><br>
-               <label>EMail:<input type="text" id="email"></label><br/><br>
-               <label>Password:<input type="text" id="password"></label><br/><br>
-               <label>Pwd Confirm:<input type="text" id="password"></label><br/><br>
-               <label>Birthday:<input type="date" id="birthday"></label><br/><br>
-        
-               <label for="Male">Male</label>
-               <input type="radio" id="male" name="gender" value="male">
-               <label for="Female">Female</label>
-               <input type="radio" id="female" name="gender" value="female">
-               <label for="Other">Other</label>
-               <input type="radio" id="other" name="gender" value="other">
-               <p> A short description about yourself:</p>
-               <textarea name="description"></textarea><br>
-                    
-               <label for="favoritelanguage">favorite language</label>
-               <select name = "favoritelanguage" id="favorite language">
-                  <option value="">None</option>
-                  <option value="Java">Java</option>
-                  <option value="Jscript">Jscript</option>
-                  <option value="Python">Python</option>
-                  <option value="Ruby">Ruby</option>
-               </select><br><br>
-               <input type="submit" value="Submit">           
-            </form>
-        </div>      
-    </body>
+               <div class="inputdata">
+                    <label>First Name:<input type="text" id="firstname"></label><br><br>
+                    <label>Last Name:<input type="text" id="lastname"></label><br><br>
+                    <label>Email:<input type="text" id="email"></label><br><br>
+                    <label>Password:<input type="text" id="password"></label><br/><br>
+                    <label>Pwd Confirm:<input type="text" id="password"></label><br/><br>
+                    <label>Birthday:<input type="date" id="birthday"></label><br/><br>
+               </div>
+                <div>
+                     <label for="Male">Male</label>
+                     <input type="radio" id="male" name="gender" value="male">
+                     <label for="Female">Female</label>
+                     <input type="radio" id="female" name="gender" value="female">
+                     <label for="Other">Other</label>
+                     <input type="radio" id="other" name="gender" value="other">
+                     <p> A short description about yourself:</p>
+                     <textarea name="description"></textarea><br><br>
+                                
+                     <label for="favoritelanguage">favorite language</label>
+                     <select name = "favoritelanguage" id="favorite language">
+                         <option value="">None</option>
+                         <option value="Java">Java</option>
+                         <option value="Jscript">Jscript</option>
+                         <option value="Python">Python</option>
+                         <option value="Ruby">Ruby</option>
+                     </select><br><br>
+                     <input type="submit" value="Submit">           
+               </div>  
+            </form>      
+        </body>
 </html> 
