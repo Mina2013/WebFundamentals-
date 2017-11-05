@@ -1,0 +1,48 @@
+#container {
+    width:1000px;
+    height: 1000px;
+    background-color: grey;
+}
+#box-1{
+    background-color: green;
+    width:960px;
+    height: 100px;
+    margin-left:20px;
+    margin-right:20px;
+    padding-top: 10px;
+}
+#box-2
+{
+    background-color: blue;
+    float: left;
+    height: 300px;
+    width: 200px;
+    margin-left:20px;
+    margin-right:20 px;
+    margin-top:20px;
+ } 
+
+#box-3 {
+    float: right;
+    background-color:red;
+    height: 350px;
+    width: 700px;
+    margin: 20px;
+    padding: 20px;
+}
+
+#yb1, #yb2, #yb3 {
+    float:left;
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+   
+}
+#pb {
+    background-color: purple;
+    height: 100px;
+    width: 640px;
+    margin-top: 230px;
+    margin-left: 10px;
+}
