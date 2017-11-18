@@ -1,0 +1,16 @@
+var num = 15;
+var num1 = 2.3;
+var num2 = .3023;
+var num3 = -89;
+var name = 'Mina';
+var favs = ["travle", "coding"];
+var boolean1 = true;
+var boolean = false;
+console.log (num);
+console.log (num1);
+console.log (num2);
+console.log (num3);
+console.log (name);
+console.log (favs);
+console.log (boolean);
+console.log (boolean1);
