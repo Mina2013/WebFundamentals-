@@ -9,7 +9,7 @@ var boolean = false;
 console.log (num);
 console.log (num1);
 console.log (num2);
-console.log (num3);
+console.log (num3); 
 console.log (name);
 console.log (favs);
 console.log (boolean);
