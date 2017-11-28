@@ -1,8 +1,12 @@
 h1 {Color: purple;
 } 
+
+#important {
+    font-size:24px;
+}
 .grey{
     background-color: grey;
 }
 .lightgrey {
-background-color: lightgrey 
+    background-color: lightgrey 
 }
