@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- this seems unnecessary -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,10 +9,13 @@
     <script type ="text/javascript" Src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
     <script type = "text/javascript">
       $(document).ready(function(){
-
-          $('form').submit(function(){
-              var Usersname = $('input[name="Username"]').val();
-             $.get("https://api.github.com/users/"+Username, function(response){
+          $('form').submit(function(event){
+              // this is accomplishing the same thing as return false.
+              // notice how we must accept a parameter called event in our callback
+              event.preventDefault();
+              // Uppercase variable names are usually reserved for classes, you should consider changing it to username or userName, as camelCase is the most common convention used in javaScript
+              var username = $('input[name="username"]').val();
+             $.get("https://api.github.com/users/"+username, function(response){
                 console.log(response);
                 var html_str = `
                         <img src= "${response.avatar_url}">
@@ -20,16 +24,19 @@
                         `;
                     $('#landing').append(html_str);
             }, "json");
+            // not needed if using event.preventDefault()
+            // The reason I thought it wasn't working is because the value was being overwritten, as if the page were refreshing, which is not what you want.
             return false;        
           });
-               
       })
     </script>
     <title>Document</title>
 </head>
 <body>
     <form action= "" method ="post">
-        <input type = "submitt" value ="Username">
+        <!-- this should be a text type, submit types are reserved for actually submitting the form to the url specified in action, they look like buttons -->
+        <!-- I used the placeholder attribute instead of value here so your user doesn't have to manually delete the value before they enter their new value -->
+        <input type = "text" placeholder="User Name">
         <input type ="submit" value = "Get User">
     </form>
  <div id ='landing'></div>

@@ -1,0 +1,109 @@
+*{
+    outline:1px dashed red;
+}
+body{
+    background-color:rgb(44, 44, 112);
+
+}    
+.wrapper
+{
+    width:970px;
+    margin: 0px auto;
+}
+
+header{
+    display: inline-block;
+    height:200px;
+    width:970px;
+    }
+   .topheader{
+       height:150px;
+       display: inline-block;
+   }
+        img{
+            display: inline-block;
+            height: 80px;
+            width:80px;
+        }
+        .py{
+            display: inline-block;
+            font-family: Verdana;
+            font-size: 20pt;
+            color: lightgrey;
+            vertical-align:top;
+          }
+         
+          input{
+              margin-left: 700px;
+                           
+          }
+        .ribbon{
+            padding: 5px;
+                }
+         ul,form{
+            display: inline;
+        }
+        input,ul{
+            display: inline-block;
+
+        }
+        ul,p,a,form{
+        display: inline;
+       
+        }
+        .text,a{
+            position: inline-block;
+            vertical-align: top;
+                     
+        }
+        .text{
+            font-size: 12pt;
+            color: lightgray;
+         }
+        a{
+            color: rgb(196, 196, 60);
+            font-size: 12pt;
+        }
+        .ribbon{
+            background-color: rgb(113, 111, 228);
+            width: 880px;
+            height: 40px;
+            border-radius: 25px;
+         }
+         .rby{
+              Margin: 10px;
+                       
+         }
+         .tag{
+             margin-right: 50px;
+             font-size: 16pt;
+             color: white;
+             }
+main{
+        height:400px;
+    }
+    ul{
+        display: inline-block;
+        margin-left: 20px;
+    }
+    .beautiful, .list{
+        position: inline-block;
+    }
+    .body{
+            font-size: 15px;
+            color: white;
+            width: 200px;
+            font-size: 15px;
+            color: white;
+     }   
+     li{
+         width:250px;
+         height: 250 px;
+         padding-left: 50px;
+         margin: 5px; 
+     } 
+    
+    
+    footer{
+        height: 160px;
+    }
