@@ -18,9 +18,9 @@ def separate_plus_minus(x):
     positive = []
     negative = []
     for number in x:
-        if number >= 0:
-             positive.append(number)
+        if number <= 0:
+             negative.append(x[0])
         else:
-             negative.append(number)
-        return negative[0], positive
+             positive.append(x)
+        return x
     print separate_plus_minus([19,2,54,-2,7,12,98,32,10,-3,6])
