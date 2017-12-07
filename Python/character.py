@@ -1,14 +1,18 @@
-def char_list(list):
-    char =[]
+def char_list(word_list, letter):
     newlist=[]
-    for i in list:
-         for char in i:
-            if char == "o":
-                print char
-                if char in i:
-                    print [i]
-char_list(["hello","world","my","name","is","mina"])
+    for word in word_list:
+        if letter in word:
+            newlist.append(word)
+    return newlist
 
+# for i in range(0, len(word)):
+#     print word[i]
+
+# for letter in word:
+#     print letter
+
+list_with_letter = char_list(["hello","world","my","name","is","mina"], 'w')
+print list_with_letter
 ###Chekerboars###
 def checkerboard(arr):
     count=0

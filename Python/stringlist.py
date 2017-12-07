@@ -10,17 +10,15 @@
 #     return (first+last)
 # print firstlast(["hello",2,54,-2,7,12,98,"world"])
 
-# x = [19,2,54,-2,7,12,98,32,10,-3,6]
-# x.sort()
-# print x
-# x.append[0]
+x = [19,2,54,-2,7,12,98,32,10,-3,6]
 def separate_plus_minus(x):
-    positive = []
-    negative = []
-    for number in x:
-        if number <= 0:
-             negative.append(x[0])
-        else:
-             positive.append(x)
-        return x
-    print separate_plus_minus([19,2,54,-2,7,12,98,32,10,-3,6])
+x.sort()
+print x
+def splitlist(arr):
+    list1=[]
+    list2=[]
+    for i in arr:
+        if i in range(0, len(x)/2):
+            print list1     
+
+print separate_plus_minus([19,2,54,-2,7,12,98,32,10,-3,6])
