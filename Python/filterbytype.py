@@ -1,23 +1,23 @@
-# def int (x):
-#     if x < 100:
-#         print "number is small"
-#     else:
-#         print "number too big"
-# int(600)
-# def sentence (string):
-#     if len(string) < 50:
-#         print "short sentence"
-#     else:
-#         print "this is long sentence"
-# sentence("tell me and I forget. Teach me and I remenmber, invole me and i learn")
-#
-# def mylist(arr):
-#     if len(arr) >= 10:
-#         print "Big List"
-#     else:
-#         print "Short list"
-# mylist ([1,2,5,8,"hello"])
-# check for int type
+def int (x):
+    if x < 100:
+        print "number is small"
+    else:
+        print "number too big"
+int(600)
+def sentence (string):
+    if len(string) < 50:
+        print "short sentence"
+    else:
+        print "this is long sentence"
+sentence("tell me and I forget. Teach me and I remenmber, invole me and i learn")
+
+def mylist(arr):
+    if len(arr) >= 10:
+        print "Big List"
+    else:
+        print "Short list"
+mylist ([1,2,5,8,"hello"])
+check for int type
 x= 100
 if isinstance(x, int):
     print "x is an int"
