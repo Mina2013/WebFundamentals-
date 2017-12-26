@@ -26,10 +26,96 @@
 #     print favoritenumber[i]
 # for i in favoritenumber:
 #      print favoritenumber
-d={1:'one',2:'two',3:'three'}
-# print 'd.items():'
-for k,v in d.items():
-   if d[k] is v:
-       print "they are the same object'
-        else:
-            print "they are different"
+# d={1:'one',2:'two',3:'three'}
+# # print 'd.items():'
+# for k,v in d.items():
+#    if d[k] is v:
+#        print "they are the same object'
+#         else:
+#             print "they are different"
+# print 5
+# print type (10.25)
+# favoritenumbers=[7,4,6,11,13]
+# print favoritenumbers[0]
+# print favoritenumbers[1]
+# print favoritenumbers[2]
+# print favoritenumbers[3]
+# favoritenumbers[0]=15
+# print favoritenumbers
+# favoritenumbers.append(20)
+#
+# mydictionary ={
+# "name":"Mina",
+# "position":"PM",
+# "favorite_Language":"Python"
+# }
+# print mydictionary["favorite_Language"]
+# mydictionary["name"]="Dirk"
+# mydictionary["position"]="Manager"
+# print mydictionary
+# favoritenumbers=[1,131,125.5]
+# for i in range(len(favoritenumbers)):
+#     # favoritenumbers[i]=10
+#     print favoritenumbers[i]
+# for i in mydictionary:
+#     print mydictionary[i]
+# age=22
+# if age<20:
+#     print"cant come in here"
+#     print"must be 21"
+# elif "21"==21:
+# #     print"this is true"
+# set1 =[1,2,3]
+# set2 =[11,21,31]
+# set3 =[12,23,32]
+# def setofinstruction(favoritenumber):
+#     favoritenumber[0]=500
+#     print favoritenumber
+# setofinstruction(set1)
+# setofinstruction(set2)
+# setofinstruction(set3)
+# set1 =[1,2,3]
+# def changeparameter(randomParameter):
+#      randomParameter[0] =10
+#      print randomParameter
+# changeparameter(set1)
+# # print set,1
+# myTuple = (1,2,3)
+# myTuple[0]=5
+# print myTuple[2]
+# words ="it's thanksgiving day. It's my birthday"
+# for day in enumerate(words):
+#     print (day, words)
+# print (words.replace("day", "month"))
+# print len(words)
+#print (words.replace("day", "month"))
+     # print mydictionary[i]
+# x=[2,3,44,90]
+# print min(x)
+# print max(x)
+
+# x=["hello",4,2,15,"world"]
+# y=[]
+# print x[0]
+# print x[len(x)-1]
+# y.append(x[0])
+# y.append(x[4])
+# print y
+# Start with a list like this one: x = [19,2,54,-2,7,12,98,32,10,-3,6]. Sort your list first.
+# Then, split your list in half. Push the list created from the first half to position 0
+# of the list created from the second half. The output should be: [[-3, -2, 2, 6, 7], 10, 12, 19, 32, 54, 98].
+# Stick with it, this one is tough!
+x= [19,2,54,-2,7,12,98,32,10,-3,3,6] # print this[[-3, -2, 2, 6, 7], 10, 12, 19, 32, 54, 98]
+x.sort()
+# print x, x[len(x)-5]
+y=[]
+for i in range(len(x)/2):
+    y.append(x[0])
+    if x[i] < x[len(x)/2]:
+        x.pop(0)
+x[0]=y
+print y
+print x
+
+# print len(x)/2,x[len(x)/2]
+# print x
