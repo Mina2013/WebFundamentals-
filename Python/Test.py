@@ -101,21 +101,25 @@
 # y.append(x[0])
 # y.append(x[4])
 # print y
-# Start with a list like this one: x = [19,2,54,-2,7,12,98,32,10,-3,6]. Sort your list first.
-# Then, split your list in half. Push the list created from the first half to position 0
-# of the list created from the second half. The output should be: [[-3, -2, 2, 6, 7], 10, 12, 19, 32, 54, 98].
-# Stick with it, this one is tough!
-x= [19,2,54,-2,7,12,98,32,10,-3,3,6] # print this[[-3, -2, 2, 6, 7], 10, 12, 19, 32, 54, 98]
-x.sort()
-# print x, x[len(x)-5]
-y=[]
-for i in range(len(x)/2):
-    y.append(x[0])
-    if x[i] < x[len(x)/2]:
-        x.pop(0)
-x[0]=y
-print y
-print x
 
-# print len(x)/2,x[len(x)/2]
-# print x
+# Multiples
+# Part I - Write code that prints all the odd numbers from 1 to 1000.
+# Use the for loop and don't use a list to do this exercise.
+for i in range(1,1000):
+    if i%2==1:
+        print i
+
+# Part II - Create another program that prints all the multiples of 5 from 5 to 1,000,000.
+for i in range(5,1000000):
+    if i%5==0:
+        print(i)
+# sum and average
+a = [1, 2, 5, 10, 255, 3]
+sum=0
+avg=0
+count=0
+for i in a:
+    sum+=i
+    count=count+1
+    avg=sum/count
+print sum, count, avg
