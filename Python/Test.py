@@ -101,10 +101,98 @@
 # y.append(x[0])
 # y.append(x[4])
 # print y
+# l = ['magical unicorns',19,'hello',98.98,'world']
 
-x=12
-y=100
-if type x int:
-    print 'this is an int'
-else:
-    print "this is not an int"
+# l = [2,3,1,7,4,12]
+# # l= ['magical','unicorns']
+# # l = ['magical unicorns',19,'hello',98.98,'world']
+# sum=0
+# for i in range(len(l)):
+#     if isinstance(l, int):
+#         print "this is a list of integers"
+#     #     print "Sum is", sum
+#
+#
+# #    else:
+# #         if isinstance(l, str):
+# #             print "this is list of stings"
+# # print "Stings:", l[i]
+# # print "sum:", sum
+# # print "this is a list of integer types"
+# # print "sum is:", sum
+# #     if isinstance(l, int):
+# #     print "x is a list integer"
+# #  else:
+# # #         if isinstance(l, str):
+# #             print"this is a list of strings"
+# #         else:
+# #             if isinstance(l, list):
+# #                 print " this is a list"
+# l = [2,3,1,7,4,12]
+# # sum=0
+# l= ['magical','unicorns']
+# # l = ['magical unicorns',19,'hello',98.98,'world']
+# # for i in range(len(l)):
+# #     if isinstance(l[i], int):
+# #         sum=sum+l[i]
+# # print "this is a list of int"
+# # print "Sum:", sum
+# for i in range(len(l)):
+#     # print l[i]
+#     if isinstance (l, str):
+#
+#         # print "this is a list of strings"
+# list_one = [1,2,5,6,2]
+# list_two = [1,2,5,6,2]
+# def lists (list1, list2):
+#     for i in list1:
+#         if not list2:
+#             lists = True
+#         else:
+#             if list1[i]==list2[i]:
+#                 lists= True
+#             else:
+#                 lists = False
+#                 print" the lists are the same"
+# # lists([1,2,5,6,2],[1,2,5,7,2])
+# def compare(list1 ,list2):
+#     if not identical:
+#         lists = False
+#     for i in range(len(list1)):
+#         if i[list1] == i[list2]:
+#             print "the lists are identical"
+#         else:
+#             print "the lists are not the same"
+                # i=[list1]
+    # x= [list2]
+    # if i[list1] == x[list2]:
+    #     print "the lists are identical"
+    # else:
+     #     print "the lists are not the same"
+#print compare ([1,2,3], [1,2,3])
+
+def char_list(word_list, letter):
+    newlist=[]
+    for word in word_list:
+        if letter in word:
+            newlist.append(word)
+    return newlist
+
+list_with_letter = char_list(["hello","world","my","name","is","mina"], 'o')
+print list_with_letter
+##Chekerboars###
+def checkerboard(arr):
+    count=0
+    for count in range(0,8):
+            print(", " . join(arr))
+# checkerboard(["****"])
+def checkerboard(arr):
+    count =0
+    newarr=[]
+    for count in range(0,8):
+        # print count
+        if count %2 == 0:
+            print(", " . join(newarr)),(", " . join(arr))
+        else:
+            print (", " . join(arr))
+checkerboard(["****"])

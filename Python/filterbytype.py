@@ -17,7 +17,7 @@ def mylist(arr):
     else:
         print "Short list"
 mylist ([1,2,5,8,"hello"])
-check for int type
+#check for int type
 x= 100
 if isinstance(x, int):
     print "x is an int"

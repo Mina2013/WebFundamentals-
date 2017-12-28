@@ -5,18 +5,21 @@ def char_list(word_list, letter):
             newlist.append(word)
     return newlist
 
-# for i in range(0, len(word)):
-#     print word[i]
-
-# for letter in word:
-#     print letter
-
-list_with_letter = char_list(["hello","world","my","name","is","mina"], 'w')
+list_with_letter = char_list(["hello","world","my","name","is","mina"], 'o')
 print list_with_letter
-###Chekerboars###
+##Chekerboars###
 def checkerboard(arr):
     count=0
     for count in range(0,8):
             print(", " . join(arr))
-
+# checkerboard(["****"])
+def checkerboard(arr):
+    count =0
+    newarr=[]
+    for count in range(0,8):
+        # print count
+        if count %2 == 0:
+            print(", " . join(newarr)),(", " . join(arr))
+        else:
+            print (", " . join(arr))
 checkerboard(["****"])
