@@ -155,44 +155,13 @@
 #                 lists = False
 #                 print" the lists are the same"
 # # lists([1,2,5,6,2],[1,2,5,7,2])
-# def compare(list1 ,list2):
-#     if not identical:
-#         lists = False
-#     for i in range(len(list1)):
-#         if i[list1] == i[list2]:
-#             print "the lists are identical"
-#         else:
-#             print "the lists are not the same"
-                # i=[list1]
-    # x= [list2]
-    # if i[list1] == x[list2]:
-    #     print "the lists are identical"
-    # else:
-     #     print "the lists are not the same"
-#print compare ([1,2,3], [1,2,3])
-
-def char_list(word_list, letter):
-    newlist=[]
-    for word in word_list:
-        if letter in word:
-            newlist.append(word)
-    return newlist
-
-list_with_letter = char_list(["hello","world","my","name","is","mina"], 'o')
-print list_with_letter
-##Chekerboars###
-def checkerboard(arr):
-    count=0
-    for count in range(0,8):
-            print(", " . join(arr))
-# checkerboard(["****"])
-def checkerboard(arr):
-    count =0
-    newarr=[]
-    for count in range(0,8):
-        # print count
-        if count %2 == 0:
-            print(", " . join(newarr)),(", " . join(arr))
-        else:
-            print (", " . join(arr))
-checkerboard(["****"])
+def compare(l1 ,l2):
+    for i in l1:
+        print i
+    for j in l2:
+        print j
+    if i==j:
+        print "the lists are the same"
+    else:
+        print " the lists are not the same"
+print compare (["hello",4], ["hello",4])
