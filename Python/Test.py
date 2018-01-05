@@ -144,24 +144,46 @@
 #         # print "this is a list of strings"
 # list_one = [1,2,5,6,2]
 # list_two = [1,2,5,6,2]
-# def lists (list1, list2):
-#     for i in list1:
-#         if not list2:
-#             lists = True
-#         else:
-#             if list1[i]==list2[i]:
-#                 lists= True
-#             else:
-#                 lists = False
-#                 print" the lists are the same"
-# # lists([1,2,5,6,2],[1,2,5,7,2])
-def compare(l1 ,l2):
-    for i in l1:
-        print i
-    for j in l2:
-        print j
-    if i==j:
-        print "the lists are the same"
+# for i in range (1,2000):
+#         if i%2==0:
+#             print "the Number is Even", i
+#         elif i%2==1:
+#             print "the Number is Odd",
+
+# a = [2, 4, 10, 16])
+# def multiply(a, num):
+#     for i in a:
+#         a=i*num
+#         print a
+# multiply([2,4,5],5)
+
+# def layered_multiples(arr,num):
+#     new_arr=[]
+#     for i in arr:
+#         new_arr.append(i*num)
+#     print new_arrf
+#  # arr=arr*Num
+#     # arr.append(arr)
+#     # print arr
+# #     # for i in range(len(arr)):
+#         # print i, arr
+# layered_multiples([2,4,5],3)
+# # print x
+from random import randint
+grade = randint(0,100)
+print "Scores and Grades"
+if grade < 60:
+    print"Score:", grade, "; Your grade is F"
+else:
+    if grade>60 and grade<=69:
+        print "Score:", grade, "; Your grade is D"
     else:
-        print " the lists are not the same"
-print compare (["hello",4], ["hello",4])
+        if grade>69 and grade<=79:
+            print "Score:", grade, "; Your grade is C"
+        else:
+            if grade>79 and grade<=89:
+                print "Score:", grade, "; Your grade is B"
+            else:
+                if grade>89 and grade<=100:
+                    print "Score:", grade, "; Your grade is A"
+print "End of the program. Bye"

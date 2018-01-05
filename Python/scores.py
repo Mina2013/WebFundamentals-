@@ -1,15 +1,21 @@
-import random
-random_num = int
+from random import randint
+grade = randint(0,100)
 print "Scores and Grades"
-#def scores(x,y):(x,y):
-for x in range(3):
-        print "score:",random.randint(0,69), "the score is D"
-        print "Score:",random.randint(70,80), "the score is C"
-        print "Score:",random.randint(80,90), "the score is B"
-        print "Score:",random.randint(80,90), "the score is A"
-        #if random_num >80:
-            #print "Score:",random.randint(70,80), "the score is C"
-print "Program is done bye"
+if grade < 60:
+    print"Score:", grade, "; Your grade is F"
+else:
+    if grade>60 and grade<=69:
+        print "Score:", grade, "; Your grade is D"
+    else:
+        if grade>69 and grade<=79:
+            print "Score:", grade, "; Your grade is C"
+        else:
+            if grade>79 and grade<=89:
+                print "Score:", grade, "; Your grade is B"
+            else:
+                if grade>89 and grade<=100:
+                    print "Score:", grade, "; Your grade is A"
+print "End of the program. Bye"
 
 
 

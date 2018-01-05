@@ -7,4 +7,4 @@ def compare(l1 ,l2):
         print "the lists are the same"
     else:
         print " the lists are not the same"
-print compare (["hello",4], ["hello",4])
+print compare (["hello","bread","milk"], ["hello","bread","mlak"])
