@@ -16,7 +16,3 @@ else:
                 if grade>89 and grade<=100:
                     print "Score:", grade, "; Your grade is A"
 print "End of the program. Bye"
-
-
-
-#print "Score:", random.randint(60,100)

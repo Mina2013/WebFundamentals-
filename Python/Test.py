@@ -149,41 +149,62 @@
 #             print "the Number is Even", i
 #         elif i%2==1:
 #             print "the Number is Odd",
-
+#
 # a = [2, 4, 10, 16])
 # def multiply(a, num):
 #     for i in a:
 #         a=i*num
 #         print a
 # multiply([2,4,5],5)
-
+#
 # def layered_multiples(arr,num):
 #     new_arr=[]
 #     for i in arr:
 #         new_arr.append(i*num)
 #     print new_arrf
-#  # arr=arr*Num
-#     # arr.append(arr)
-#     # print arr
-# #     # for i in range(len(arr)):
-#         # print i, arr
+ # arr=arr*Num
+    # arr.append(arr)
+    # print arr
+#     # for i in range(len(arr)):
+        # print i, arr
 # layered_multiples([2,4,5],3)
-# # print x
+# print x
+# from random import randint
+# grade = randint(0,100)
+# print "Scores and Grades"
+# if grade < 60:
+#     print"Score:", grade, "; Your grade is F"
+# else:
+#     if grade>60 and grade<=69:
+#         print "Score:", grade, "; Your grade is D"
+#     else:
+#         if grade>69 and grade<=79:
+#             print "Score:", grade, "; Your grade is C"
+#         else:
+#             if grade>79 and grade<=89:
+#                 print "Score:", grade, "; Your grade is B"
+#             else:
+#                 if grade>89 and grade<=100:
+#                     print "Score:", grade, "; Your grade is A"
+# print "End of the program. Bye"
+
+
 from random import randint
-grade = randint(0,100)
-print "Scores and Grades"
-if grade < 60:
-    print"Score:", grade, "; Your grade is F"
-else:
-    if grade>60 and grade<=69:
-        print "Score:", grade, "; Your grade is D"
+print "Starting the program..."
+# coin = randint(0,1)
+heads =0 # define what randome int will denote heads
+headscount=0
+tailscount=0
+tails =1
+count =1
+while count < 5001:
+    coin =randint(0,1)
+    if coin == 0:
+        headscount=headscount+1
+        print count,"Attempt Throwing a coin... It's a head! ...Got", headscount, "head(s) so far and",tailscount, "tail(s) so far", coin
     else:
-        if grade>69 and grade<=79:
-            print "Score:", grade, "; Your grade is C"
-        else:
-            if grade>79 and grade<=89:
-                print "Score:", grade, "; Your grade is B"
-            else:
-                if grade>89 and grade<=100:
-                    print "Score:", grade, "; Your grade is A"
-print "End of the program. Bye"
+        if coin == 1:
+            tailscount=tailscount+1
+            print count,"Attempt Throwing a coin... It's a tail! ...Got", tailscount, "tail (s) so far and",headscount,"head (s) so far", coin
+    count= count+1
+print "Attempt #5000: Throwing a coin... It's a head! ... Got",headscount,"head(s) so far and", tailscount,"tail(s) so far. Ending the program, thank you!"
