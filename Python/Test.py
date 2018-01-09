@@ -189,18 +189,46 @@
 # print "End of the program. Bye"
 
 # x = [4, 6, 1, 3, 5, 7, 25]
-def drawstars(x):
-    y=('*')
-    for i in x:
-        if type (i) == int:
-            print i*y
-        else:
-            if type(i)== str:
-                for val in i:
-                    print val[0]*len(i)
-                    break
-                 # print val[0]
-        # else:
-        #     if type (x)== str:
-        #         print i*y
-drawstars([4, "Tom", 1, "Michael", 5, 7, "Jimmy Smith"])
+# def drawstars(x):
+#     y=('*')
+#     for i in x:
+#         if type (i) == int:
+#             print i*y
+#         else:
+#             if type(i)== str:
+#                 for val in i:
+#                     print val[0]*len(i)
+#                     break
+# drawstars([4, "Tom", 1, "Michael", 5, 7, "Jimmy Smith"])
+# def dictionary():
+#     my_dict = {'name': 'Mina','My age is':'36','my country of birth is:','Algeria','My favorite language is:','Python'}
+# print my_dict =['name']
+# /*****Disctionaries*******/
+# weekend = {"Sun": "Sunday", "Sat": "Saturday"} #literal notation
+# capitals = {} #create an empty dictionary then add values
+# capitals["svk"] = "Bratislava"
+# capitals["deu"] = "Berlin"
+# capitals["dnk"] = "Copenhagen"
+# print weekend["Sun"]
+# print capitals["svk"]
+#to print all keys
+# for data in capitals:
+#      print data
+#another way to print all keys
+# for key in capitals.iterkeys():
+#      print key
+#to print the values
+# for val in capitals.itervalues():
+#      print val
+# #to print all keys and values
+# for key,data in capitals.iteritems():
+#      print key, " = ", data
+
+def my_dict():
+    my_dict = {'My name is': 'Mina',
+                'My age is':'36',
+                'My country of birth is':'Algeria',
+                'My favorite language is':'Python'}
+    for key,data in sorted (my_dict.iteritems()):
+        print key, data
+my_dict()
