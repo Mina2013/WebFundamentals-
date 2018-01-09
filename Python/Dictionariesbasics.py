@@ -6,3 +6,7 @@ def my_dict():
     for key,data in sorted (my_dict.iteritems()):
         print key, data
 my_dict()
+###/****/Print any dictionary***/###
+# def print_dictionary_values(dic):
+#     for some_key, some_value in dic.iteritems():
+#         print "My" + " " + some_key + " " + "is" + " " + str(some_value)
