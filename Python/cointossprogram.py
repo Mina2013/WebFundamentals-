@@ -3,10 +3,10 @@ from random import randint
 print "Starting the program..."
 # coin = randint(0,1)
 heads =0 # define what randome int will denote heads
-headscount=0
-tailscount=0
-tails =1
-count =1
+headscount=0 #count for tails
+tailscount=0 #count for heads
+tails =1 # define what randome int will denote heads
+count =1 # count for tossing the coin 5000
 while count < 5001:
     coin =randint(0,1)
     if coin == 0:

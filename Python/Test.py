@@ -188,23 +188,19 @@
 #                     print "Score:", grade, "; Your grade is A"
 # print "End of the program. Bye"
 
-
-from random import randint
-print "Starting the program..."
-# coin = randint(0,1)
-heads =0 # define what randome int will denote heads
-headscount=0
-tailscount=0
-tails =1
-count =1
-while count < 5001:
-    coin =randint(0,1)
-    if coin == 0:
-        headscount=headscount+1
-        print count,"Attempt Throwing a coin... It's a head! ...Got", headscount, "head(s) so far and",tailscount, "tail(s) so far", coin
-    else:
-        if coin == 1:
-            tailscount=tailscount+1
-            print count,"Attempt Throwing a coin... It's a tail! ...Got", tailscount, "tail (s) so far and",headscount,"head (s) so far", coin
-    count= count+1
-print "Attempt #5000: Throwing a coin... It's a head! ... Got",headscount,"head(s) so far and", tailscount,"tail(s) so far. Ending the program, thank you!"
+# x = [4, 6, 1, 3, 5, 7, 25]
+def drawstars(x):
+    y=('*')
+    for i in x:
+        if type (i) == int:
+            print i*y
+        else:
+            if type(i)== str:
+                for val in i:
+                    print val[0]*len(i)
+                    break
+                 # print val[0]
+        # else:
+        #     if type (x)== str:
+        #         print i*y
+drawstars([4, "Tom", 1, "Michael", 5, 7, "Jimmy Smith"])
