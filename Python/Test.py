@@ -224,6 +224,50 @@
 # for key,data in capitals.iteritems():
 #      print key, " = ", data
 ###/****/Print any dictionary***/###
-# def print_dictionary_values(dic):
-#     for some_key, some_value in dic.iteritems():
-#         print "My" + " " + some_key + " " + "is" + " " + str(some_value)
+def func(Students, Instructors):
+    count=0
+    for key, data in users.items():
+        print key
+        for i,value in enumerate(data,1):
+            count= len(value['first_name']) +len(value['last_name'])
+            return i,'-',value['first_name'], value ['last_name'],'-', count
+users={
+'Students': [
+ {'first_name':  'Michael', 'last_name' : 'Jordan'},
+ {'first_name' : 'John', 'last_name' : 'Rosales'},
+ {'first_name' : 'Mark', 'last_name' : 'Guillen'},
+ {'first_name' : 'KB', 'last_name' : 'Tonel'}
+],
+'Instructors': [
+ {'first_name' : 'Michael', 'last_name' : 'Choi'},
+ {'first_name' : 'Martin', 'last_name' : 'Puryear'}
+]
+}
+print(func(**users))
+# def func(arg1,arg2):
+#     return arg1 + arg2
+#
+# args = {"arg1":3,"arg2":4}
+# print(func(**args))
+
+# def multiply(arr, num):
+#     for x in range(0, len(arr)):
+#         arr[x] *= num
+#     return arr
+#
+# numbers_array = [3, 6, 8, 10, 67]
+#
+# print multiply(numbers_array, 5)
+#
+# def layered_multiples(arr):
+#     print arr
+#     new_array = []
+#     for x in arr:
+#         val_arr = []
+#         for i in range(0,x):
+#             val_arr.append(1)
+#         new_array.append(val_arr)
+#     return new_array
+#
+# x = layered_multiples(multiply([2,4,5],3))
+# print x
