@@ -224,26 +224,26 @@
 # for key,data in capitals.iteritems():
 #      print key, " = ", data
 ###/****/Print any dictionary***/###
-def func(Students, Instructors):
-    count=0
-    for key, data in users.items():
-        print key
-        for i,value in enumerate(data,1):
-            count= len(value['first_name']) +len(value['last_name'])
-            return i,'-',value['first_name'], value ['last_name'],'-', count
-users={
-'Students': [
- {'first_name':  'Michael', 'last_name' : 'Jordan'},
- {'first_name' : 'John', 'last_name' : 'Rosales'},
- {'first_name' : 'Mark', 'last_name' : 'Guillen'},
- {'first_name' : 'KB', 'last_name' : 'Tonel'}
-],
-'Instructors': [
- {'first_name' : 'Michael', 'last_name' : 'Choi'},
- {'first_name' : 'Martin', 'last_name' : 'Puryear'}
-]
-}
-print(func(**users))
+# def func(Students, Instructors):
+#     count=0
+#     for key, data in users.items():
+#         print key
+#         for i,value in enumerate(data,1):
+#             count= len(value['first_name']) +len(value['last_name'])
+#             return i,'-',value['first_name'], value ['last_name'],'-', count
+# users={
+# 'Students': [
+#  {'first_name':  'Michael', 'last_name' : 'Jordan'},
+#  {'first_name' : 'John', 'last_name' : 'Rosales'},
+#  {'first_name' : 'Mark', 'last_name' : 'Guillen'},
+#  {'first_name' : 'KB', 'last_name' : 'Tonel'}
+# ],
+# 'Instructors': [
+#  {'first_name' : 'Michael', 'last_name' : 'Choi'},
+#  {'first_name' : 'Martin', 'last_name' : 'Puryear'}
+# ]
+# }
+# print(func(**users))
 # def func(arg1,arg2):
 #     return arg1 + arg2
 #
@@ -271,3 +271,19 @@ print(func(**users))
 #
 # x = layered_multiples(multiply([2,4,5],3))
 # print x
+
+###/****/from dict to tuples/****/###
+def func (tuples):
+    l= my_dict.items()
+    return l
+my_dict = {
+  "Speros": "(555) 555-5555",
+  "Michael": "(999) 999-9999",
+  "Jay": "(777) 777-7777"
+}
+print func(my_dict)
+
+#function ///output
+#[("Speros", "(555) 555-5555"),
+# ("Michael", "(999) 999-9999"),
+# ("Jay", "(777) 777-7777")]

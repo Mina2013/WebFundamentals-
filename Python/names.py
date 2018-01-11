@@ -1,4 +1,4 @@
-###/***/Print a only values*****/####
+###/***/Print values only/***/
 def names(dic1):
     for i in students:
         print i['first_name']
@@ -27,7 +27,8 @@ users={
 ],
 'Instructors': [
  {'first_name' : 'Michael', 'last_name' : 'Choi'},
- {'first_name' : 'Martin', 'last_name' : 'Puryear'}
+ {'first_name' : 'Martin', 'last_name' : 'Puryear'},
+ {'first_name' : 'Mina', 'last_name' : 'Aitelhadj'}
 ]
 }
 func1(users)
